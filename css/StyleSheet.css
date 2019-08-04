@@ -1,0 +1,93 @@
+﻿body {
+    user-select: none;
+    text-align: center;
+    background-size: 100vw 100vh;
+}
+nav, .send,#minp,#window{
+    position:absolute;
+}
+/*//toGameOver*/
+#nava {
+    display: none;
+}
+.table{
+    display: inline-grid;
+}
+.ball {
+    /*background-color: #a0ff00;*/
+    /*border: solid black;*/
+    margin: auto;
+    top: 0.01%;
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    border-radius: 50%;
+    display: block;
+    left: 0;
+    font-size: 30px;
+    color: #6eab7e;
+    min-width: 35px;
+    min-height: 35px;
+}
+
+/*#send {
+    top: 80vw;
+    border: solid black;
+    margin: auto;
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+    border-radius: 50%;
+}*/
+
+#wrapper {
+    width: 95%;
+    height: 95%;
+}
+
+#window {
+    border: solid;
+    border-color: #a0eebb80;
+    background-color: #abff1dcf;
+    width: 50%;
+    height: 90%;
+    margin: auto;
+    right: 25vw;
+}
+#exercise {
+    margin: auto;
+    position: relative;
+    background-color: #fade6b;
+    width: 14%;
+    background: radial-gradient(#5e92c2,#fddf5f);
+    font-size: 2.5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#minp {
+    display: inline-block;
+    bottom: 0;
+    z-index: 10;
+    left: 67.5vw;
+    width: 10vw;
+    min-width: 100px;
+}
+.send {
+    content: "gg";
+    width: 4vw;
+    height: 4vw;
+    background: radial-gradient(circle at 10% 1%,#fefefe, #fce065,#312323);
+    border-radius: 50%;
+   
+    bottom: 12vw;
+    left: 69.8vw;
+    min-width: 35px;
+    min-height: 35px;
+}
+nav{
+    right:2vw;
+    top:10vw;
+    
+}
+
+
+

@@ -1,0 +1,206 @@
+﻿body {
+}
+
+@media screen and (max-width: 480px) {
+    #window {
+        width: 96%;
+        margin-left: -4vw;
+        left: 6vw;
+    }
+
+    #exercise {
+        font-size: 5.5vw;
+    }
+
+    body {
+        background-color: #7bf7c8;
+        text-shadow: 1px 1px 0 #444;
+        background: radial-gradient(circle at 80px 80px, #000000,#000000,#000000, #000000, #000000, #0b0963, #0400ff, #222073, #000000);
+    }
+
+    #minp {
+        left: 79vw;
+    }
+
+    .send {
+        bottom: 25vw;
+        left: 83.8vw;
+    }
+
+    button {
+        font-size: 6.5vw;
+        width: 21vw;
+    }
+
+    .ball {
+        font-size: 27px;
+    }
+
+    #img1 {
+        display: none;
+    }
+
+    #float {
+        display: block;
+        position: absolute;
+        height: 7vw;
+        width: 7vw;
+        font-size: small;
+        top: 0;
+    }
+
+    nav {
+        top: 4%;
+        width: 20%;
+        position: absolute;
+        text-align: center;
+        box-shadow: unset;
+        right: 22px;
+    }
+
+    #b123 {
+        width: 37vw;
+    }
+
+    #ins {
+        width: 60vw;
+    }
+
+    #labler {
+        font-size: 5vw;
+    }
+
+    #p2, h7 {
+        font-size: 3vw;
+    }
+}
+
+
+
+@media screen and (max-width: 768px)and (min-width: 480px) {
+    #h1 {
+        margin-bottom: 55%;
+        margin-top: 50%;
+        font-size: x-large;
+        position: relative;
+        bottom: -30vw;
+    }
+
+    nav {
+        top: 40vw;
+        width: 20%;
+        position: absolute;
+        text-align: center;
+        box-shadow: unset;
+    }
+
+    #bub {
+        position: absolute;
+        bottom: -80vw;
+    }
+
+    .bubbles {
+        font-size: 25vw;
+        color: #00ffff;
+        z-index: -1;
+        position: relative;
+    }
+
+        .bubbles::after {
+            font-size: 30vw;
+            color: #9dfaff;
+            right: 8%;
+            top: 20%;
+            position: absolute;
+            content: "Math";
+        }
+
+    .log {
+        width: 55vw;
+        height: 30vw;
+    }
+
+    .math {
+        height: 22vw;
+    }
+
+    nav {
+        display: none;
+        width: 30%;
+        float: right;
+        position: relative;
+        text-align: center;
+        box-shadow: unset;
+    }
+
+    #window {
+        width: 67%;
+        right: 15vw;
+    }
+
+    #float {
+        display: block;
+        position: absolute;
+        height: 7vw;
+        width: 7vw;
+        font-size: small;
+        top: 0;
+    }
+
+    .infor {
+        font-size: 3vw;
+    }
+
+    #img1 {
+        left: 80vw;
+        position: absolute;
+        bottom: 5vw;
+        height: 15vw;
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 769px)and (min-width: 991px) {
+    nav {
+        top: 60%;
+    }
+
+    #h1 {
+        font-size: 4vw;
+    }
+
+    #bub {
+        margin-bottom: 40vw;
+        height: 15vw;
+    }
+}
+
+@media screen and (max-width: 992px)and (min-width: 1199px) {
+    #h1 {
+        height: 5vw
+    }
+
+    nav {
+        top: 60%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+    }
+
+    .bubbles {
+        left: 5vw;
+    }
+
+    .warrperB {
+        right: 5vw;
+    }
+}
+@media screen and (max-width: 980px)
+{
+    .send {
+        bottom: 118px;
+    }
+}

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="css/HomePCss.css" rel="stylesheet" />
+    <link href="css/BackGruond.css" rel="stylesheet" />
+    <link href="css/media screen.css" rel="stylesheet" />
+
+    <!--<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">-->
+    <script src="js/homePage.js"></script>
+    <script src="js/gamePage.js"></script>
+    <script src="js/player.js"></script>
+
+
+</head>
+<body onload="setIntervals()">
+    <div id="warpper">
+        <button id="float" onclick="floating()">☰</button>
+        <nav id="nav">
+            <button onclick=" moveToInstruction()">instructions</button>
+            <button onclick="openeDilog('loding')">change user</button>
+            <button onclick="openeDilog('level')">level </button>
+            <button onclick="moveToGame()">play</button>
+            <button onclick="movePrint()">pritn passport</button>
+
+        </nav>
+        <!--<img src=",ymd,g.png" id="min1" />-->
+        <div class="modal" id="level">
+            <div class="math">
+                <span class="close" onclick="closeD('level')">close</span>
+                <header id="h">choose Level</header>
+                <div id="wrapperbut">
+                    <button id="math1">-</button>
+                    <button id="math2">+</button>
+                    <br />
+                    <button id="math3">*</button>
+                </div>
+            </div>
+        </div>
+        <div id="header">
+            <div class="bubbles">
+                Bubbles
+            </div>
+            <div class="warrperB">
+                <div class="blueBall"></div>
+            </div>
+        </div>
+        <div class="modal" id="loding">
+            <div class="log">
+                <span class="close" onclick="closeD('loding')"> close</span> <br />
+                <label class="infor">insert full name<input type=text id="fullname" /></label><br />
+                <label class="infor">insert your password<input type=text id="password" /></label><br />
+                <button onclick="checkUser()" id="buttonLogin">login</button><br />
+                <div class="infor" id="newUser" onclick="newUser()">if you dont have user click here </div>
+
+            </div>
+        </div>
+        <img id="bub" src="picture/בודד בלי.png" draggable="false"/>
+    </div>
+    <h1 id="h1"> rivki vinter and brachi friedman and</h1>
+</body>
+</html>
